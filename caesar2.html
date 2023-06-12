@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="c2.js"></script>
+    <title>Paulo Coelho</title>
+</head>
+<body onload="display()">
+    <br>
+    <a href="index.html">Home</a>
+    <h1 id="title">Paulo Coelho</h1>
+    <p class="key">This message has been encrypted using a <b>caesar cipher</b> with a <b>key of -7</b>.</p>
+    <p id="done"></p>
+
+    <div class="message">
+        <!--Word: YOU-->
+        <div class="word">
+            <div class="letter">
+                <input type="text" id="y">
+                <br>
+                <button onclick="returnY()">Try it</button>
+                <p id="Y"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="o">
+                <br>
+                <button onclick="returnO()">Try it</button>
+                <p id="O"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="u">
+                <br>
+                <button onclick="returnU()">Try it</button>
+                <p id="U"></p>
+            </div>
+        </div>
+
+        <!--Word: ARE-->
+        <div class="word">
+            <div class="letter">
+                <input type="text" id="a">
+                <br>
+                <button onclick="returnA()">Try it</button>
+                <p id="A"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="r">
+                <br>
+                <button onclick="returnR()">Try it</button>
+                <p id="R"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="e">
+                <br>
+                <button onclick="returnE()">Try it</button>
+                <p id="E"></p>
+            </div>
+        </div>
+
+        <!--Word: WHAT-->
+        <div class="word">
+            <div class="letter">
+                <input type="text" id="w">
+                <br>
+                <button onclick="returnW()">Try it</button>
+                <p id="W"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="h">
+                <br>
+                <button onclick="returnH()">Try it</button>
+                <p id="H"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="a2">
+                <br>
+                <button onclick="returnA2()">Try it</button>
+                <p id="A2"></p>
+            </div>
+            
+            <div class="letter">
+                <input type="text" id="t">
+                <br>
+                <button onclick="returnT()">Try it</button>
+                <p id="T"></p>
+            </div>
+        </div>
+
+        <!--Word: YOU-->
+        <div class="word">
+            <div class="letter">
+                <input type="text" id="y2">
+                <br>
+                <button onclick="returnY2()">Try it</button>
+                <p id="Y2"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="o2">
+                <br>
+                <button onclick="returnO2()">Try it</button>
+                <p id="O2"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="u2">
+                <br>
+                <button onclick="returnU2()">Try it</button>
+                <p id="U2"></p>
+            </div>
+        </div>
+
+        <!--Word: BELIEVE-->
+        <div class="word">
+            <div class="letter">
+                <input type="text" id="b">
+                <br>
+                <button onclick="returnB()">Try it</button>
+                <p id="B"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="e2">
+                <br>
+                <button onclick="returnE2()">Try it</button>
+                <p id="E2"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="l">
+                <br>
+                <button onclick="returnL()">Try it</button>
+                <p id="L"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="i">
+                <br>
+                <button onclick="returnI()">Try it</button>
+                <p id="I"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="e3">
+                <br>
+                <button onclick="returnE3()">Try it</button>
+                <p id="E3"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="v">
+                <br>
+                <button onclick="returnV()">Try it</button>
+                <p id="V"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="e4">
+                <br>
+                <button onclick="returnE4()">Try it</button>
+                <p id="E4"></p>
+            </div>
+        </div>
+
+        <!--Word: YOURSELF-->
+        <div class="word">
+            <div class="letter">
+                <input type="text" id="y3">
+                <br>
+                <button onclick="returnY3()">Try it</button>
+                <p id="Y3"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="o3">
+                <br>
+                <button onclick="returnO3()">Try it</button>
+                <p id="O3"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="u3">
+                <br>
+                <button onclick="returnU3()">Try it</button>
+                <p id="U3"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="r2">
+                <br>
+                <button onclick="returnR2()">Try it</button>
+                <p id="R2"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="s">
+                <br>
+                <button onclick="returnS()">Try it</button>
+                <p id="S"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="e5">
+                <br>
+                <button onclick="returnE5()">Try it</button>
+                <p id="E5"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="l2">
+                <br>
+                <button onclick="returnL2()">Try it</button>
+                <p id="L2"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="f">
+                <br>
+                <button onclick="returnF()">Try it</button>
+                <p id="F"></p>
+            </div>
+        </div>
+
+        <!--Word: TO-->
+        <div class="word">
+            <div class="letter">
+                <input type="text" id="t2">
+                <br>
+                <button onclick="returnT2()">Try it</button>
+                <p id="T2"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="o4">
+                <br>
+                <button onclick="returnO4()">Try it</button>
+                <p id="O4"></p>
+            </div>
+        </div>
+
+        <!--Word: BE-->
+        <div class="word">
+            <div class="letter">
+                <input type="text" id="b2">
+                <br>
+                <button onclick="returnB2()">Try it</button>
+                <p id="B2"></p>
+            </div>
+
+            <div class="letter">
+                <input type="text" id="e6">
+                <br>
+                <button onclick="returnE6()">Try it</button>
+                <p id="E6"></p>
+            </div>
+        </div>
+    </div>
+
+    <button class="done" onclick="isDone()">Done</button>
+</body>
+</html>
